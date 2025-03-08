@@ -5,3 +5,4 @@ How to Use:
 2. Send /pin with username to saved messages in account.
 3. When the channel will be deleted, you will snipe username, and Account will auto run changeUsername
    Dont miss to follow me.
+## __New Update Coming Soon__ ##
