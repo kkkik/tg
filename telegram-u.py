@@ -20,5 +20,5 @@ async def save(event):
             if "wait" in str(error):await client.send_message(event.chat.id, f"Flood - {error.seconds} ️.");print("\d - UserName [ @{username} ] ."+clicks);pass
             else:await client.send_message(event.chat_id, f'Error Message : {error}\nUserName : {username}');print("\d - UserName [ @{username} ] ."+clicks)
         else:await client.send_message("me", f'Ok , Catched to the account');print("\d - UserName [ @{username} ] ."+clicks)
-    except telethon.errors.rpcerrorlist.ChannelPrivateError:await client(functions.account.UpdateUsernameRequest(username=username));await client.send_message("me", f'• UserName : @{username} .\n• Clicks : {clicks}\n• In Your Account\n• Time : {t}/n• Dev : @K_n_Y')
+    except telethon.errors.rpcerrorlist.ChannelPrivateError:await client(functions.account.UpdateUsernameRequest(username=username));await client.send_message("me", f'• UserName : @{username} .\n• Clicks : {clicks}\n• In Your Account\n• Time : {t}/n• Dev : @TastyCode')
 client.run_until_disconnected()
